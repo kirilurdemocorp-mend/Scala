@@ -1,4 +1,4 @@
-val PureConfigVersion = "0.17.0"
+val PureConfigVersion = "0.17.9"
 val EnumeratumVersion = "1.7.0"
 val LogbackVersion    = "1.2.6"
 val ScalaTestVersion  = "3.2.10"
