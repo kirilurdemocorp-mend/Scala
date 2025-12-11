@@ -6,8 +6,8 @@ jobs:
     name: DIRECTORY.md
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1 # v2 is broken for git diff
-      - uses: actions/setup-python@v2
+      - uses: actions/checkout@v6 is broken for git diff
+      - uses: actions/setup-python@v6
       - name: Setup Git Specs
         run: |
           git config --global user.name "$GITHUB_ACTOR"
